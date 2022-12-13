@@ -14,8 +14,8 @@ public class TC_002_Login {
 		driver.get("https://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[contains(text(),\"Log\")]")).click();
-		driver.findElement(By.xpath("((//input[contains(@name,'Email')])[2])/../input")).sendKeys("chethu5697@gmail.com");
-		driver.findElement(By.id("Password")).sendKeys("9902350966");
+		driver.findElement(By.xpath("((//input[contains(@name,'Email')])[2])/../input")).sendKeys("mathura123@gmail.com");
+		driver.findElement(By.id("Password")).sendKeys("9896543210");
 		driver.findElement(By.cssSelector("input[class='button-1 login-button']")).click();
 		driver.close();
 	}

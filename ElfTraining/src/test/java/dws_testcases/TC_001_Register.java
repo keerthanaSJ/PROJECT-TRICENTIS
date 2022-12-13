@@ -14,11 +14,11 @@ public class TC_001_Register {
 		driver.manage().window().maximize();
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.id("gender-male")).click();
-		driver.findElement(By.id("FirstName")).sendKeys("CHETHAN");
-		driver.findElement(By.id("LastName")).sendKeys("KUMAR HM");
-		driver.findElement(By.xpath("(//input[contains(@name,'Email')]/../input)[2]")).sendKeys("chethu5697@gmail.com");
-		driver.findElement(By.id("Password")).sendKeys("99023509666");
-		driver.findElement(By.id("ConfirmPassword")).sendKeys("99023509666");
+		driver.findElement(By.id("FirstName")).sendKeys("srikrishna");
+		driver.findElement(By.id("LastName")).sendKeys("mathura");
+		driver.findElement(By.xpath("(//input[contains(@name,'Email')]/../input)[2]")).sendKeys("mathura123@gmail.com");
+		driver.findElement(By.id("Password")).sendKeys("9896543210");
+		driver.findElement(By.id("ConfirmPassword")).sendKeys("9896543210");
 		driver.findElement(By.cssSelector("input[id=register-button]")).click();
 		driver.quit();
 	}

@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-13T16:02:40 IST" name="Default suite" finished-at="2022-12-13T16:02:50 IST" duration-ms="10014">
+  <suite started-at="2022-12-13T17:36:53 IST" name="Suite" finished-at="2022-12-13T17:37:21 IST" duration-ms="28695">
     <groups>
     </groups>
-    <test started-at="2022-12-13T16:02:40 IST" name="Default test" finished-at="2022-12-13T16:02:50 IST" duration-ms="10014">
+    <test started-at="2022-12-13T17:36:53 IST" name="Test" finished-at="2022-12-13T17:37:21 IST" duration-ms="28695">
       <class name="dws_testcases.TC_003_Search">
-        <test-method signature="search()[pri:0, instance:dws_testcases.TC_003_Search@4470f8a6]" started-at="2022-12-13T16:02:40 IST" name="search" finished-at="2022-12-13T16:02:50 IST" duration-ms="9913" status="PASS">
+        <test-method signature="search()[pri:0, instance:dws_testcases.TC_003_Search@60015ef5]" started-at="2022-12-13T17:37:14 IST" name="search" finished-at="2022-12-13T17:37:21 IST" duration-ms="7718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
       </class> <!-- dws_testcases.TC_003_Search -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="dws_testcases.TC_002_Login">
+        <test-method signature="login()[pri:0, instance:dws_testcases.TC_002_Login@55740540]" started-at="2022-12-13T17:37:05 IST" name="login" finished-at="2022-12-13T17:37:14 IST" duration-ms="8403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- dws_testcases.TC_002_Login -->
+      <class name="dws_testcases.TC_001_Register">
+        <test-method signature="register()[pri:0, instance:dws_testcases.TC_001_Register@37f1104d]" started-at="2022-12-13T17:36:53 IST" name="register" finished-at="2022-12-13T17:37:05 IST" duration-ms="12493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- dws_testcases.TC_001_Register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
