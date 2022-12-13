@@ -3,8 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Cars_Test.Mahindra_Test"/>
-       <class name="Cars_Test.Hyundai_Test"/>
+    <class name="dws_testcases.TC_001_Register"/>
+      <class name="dws_testcases.TC_002_Login"/>
+       <class name="dws_testcases.TC_003_Search"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
